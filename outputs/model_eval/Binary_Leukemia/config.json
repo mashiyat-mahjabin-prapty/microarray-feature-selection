@@ -1,0 +1,30 @@
+{
+  "dataset": "Binary_Leukemia",
+  "csv": "Binary/Leukemia/Leukemia.csv",
+  "task": "binary",
+  "classes": [
+    "b'ALL'",
+    "b'AML'"
+  ],
+  "n_samples": 72,
+  "n_original_features": 7129,
+  "xgb_cv_splits_requested": 5,
+  "xgb_cv_splits_used": 5,
+  "top_pct": 0.2,
+  "top_n_requested": 500,
+  "n_xgb_top_features": 500,
+  "consensus_threshold": 0.5,
+  "n_xgb_consensus_features": 482,
+  "n_rfecv_consensus_features": 3,
+  "rfecv_cv_splits_requested": 5,
+  "rfecv_cv_splits_used": 5,
+  "rfecv_step": 0.1,
+  "rfecv_scoring": "balanced_accuracy",
+  "n_final_selected_features": 5,
+  "ml_cv_splits_requested": 5,
+  "ml_cv_splits_used": 5,
+  "ml_repeats": 5,
+  "seed": 42,
+  "n_jobs": -1,
+  "interpretation": "Full-cohort biomarker discovery with post-selection repeated-CV assessment of the fixed feature panel."
+}

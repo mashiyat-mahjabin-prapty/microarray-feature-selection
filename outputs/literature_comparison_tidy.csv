@@ -1,0 +1,145 @@
+task,dataset,method,accuracy,avg_features,is_proposed
+Binary,Adenocarcinoma,Proposed LR,1.00,50,yes
+Binary,Adenocarcinoma,Proposed Stacking,1.00,50,yes
+Binary,Adenocarcinoma,ILRC + SVM,0.95,,no
+Binary,Adenocarcinoma,ILRC + NN,0.97,,no
+Binary,Brain Tumor,Proposed LR,0.93,150,yes
+Binary,Brain Tumor,Proposed Stacking,0.91,150,yes
+Binary,Brain Tumor,IG-SGA,0.87,38,no
+Binary,Brain Tumor,TRF-WGHC,0.90,4,no
+Binary,Brain Tumor,Multidimensional GNN,0.78,,no
+Binary,Brain Tumor,CEFS (Voting),0.90,34,no
+Binary,Brain Tumor,KL-IBPSO-ELM,0.92,8,no
+Binary,Brain Tumor,ILRC + SVM,0.83,,no
+Binary,Brain Tumor,ILRC + NN,0.93,,no
+Binary,Brain Tumor,Iso-GA + SVM,0.71,4,no
+Binary,Breast Cancer,Proposed LR,0.96,100,yes
+Binary,Breast Cancer,Proposed Stacking,0.95,100,yes
+Binary,Breast Cancer,MUL-MGO,0.93,8.62,no
+Binary,Breast Cancer,MUL-RMGO,0.93,4.92,no
+Binary,Breast Cancer,MMODE(KNN k=10),0.96,32.47,no
+Binary,Breast Cancer,WCLFJHEF(SVC),0.99,25,no
+Binary,Breast Cancer,WCLFJHEF(NB),0.91,25,no
+Binary,Breast Cancer,CEFS(Voting),0.97,71,no
+Binary,Breast Cancer,Iso-GA + SVM,0.82,51.4,no
+Binary,Colon Tumor,Proposed LR,0.90,200,yes
+Binary,Colon Tumor,Proposed Stacking,0.90,200,yes
+Binary,Colon Tumor,AltWOA,1.00,21,no
+Binary,Colon Tumor,IG-SGA,0.85,60,no
+Binary,Colon Tumor,TRF-WGHC,0.95,4,no
+Binary,Colon Tumor,PGSS + LR,0.77,12.8,no
+Binary,Colon Tumor,PGSS + Deep Learning,0.82,12.8,no
+Binary,Colon Tumor,WCLFJHEF(SVC),0.89,25,no
+Binary,Colon Tumor,WCLFJHEF(NB),0.88,25,no
+Binary,Colon Tumor,CEFS(voting),0.95,11,no
+Binary,Colon Tumor,KL-IBPSO-ELM,0.97,14,no
+Binary,Colon Tumor,ILRC + SVM,0.87,,no
+Binary,Colon Tumor,ILRC + NN,0.88,,no
+Binary,Colon Tumor,Iso-GA + SVM,0.82,11.8,no
+Binary,Gastric Cancer,Proposed LR,1.00,100,yes
+Binary,Gastric Cancer,Proposed Stacking,0.99,100,yes
+Binary,Gastric Cancer,ILRC + SVM,0.92,,no
+Binary,Gastric Cancer,ILRC + NN,0.93,,no
+Binary,Leukemia,Proposed LR,0.98,5,yes
+Binary,Leukemia,Proposed Stacking,0.97,5,yes
+Binary,Leukemia,AltWOA,1.00,30,no
+Binary,Leukemia,IG-SGA,0.97,3,no
+Binary,Leukemia,MUL-MGO,1.00,3.70,no
+Binary,Leukemia,MUL-RMGO,1.00,2.00,no
+Binary,Leukemia,TRF-WGHC,0.95,3,no
+Binary,Leukemia,WCLFJHEF(SVC),0.99,25,no
+Binary,Leukemia,WCLFJHEF(NB),0.98,25,no
+Binary,Leukemia,MMODE(KNN k=10),1.00,3,no
+Binary,Leukemia,Multidimensional GNN,0.98,4,no
+Binary,Leukemia,KL-IBPSO-ELM,1.00,8,no
+Binary,Leukemia,CEFS(Voting),0.98,64,no
+Binary,Leukemia,ILRC + SVM,0.98,,no
+Binary,Leukemia,ILRC + NN,0.97,,no
+Binary,Leukemia,Iso-GA + SVM,1.00,43.2,no
+Binary,Lung Cancer,Proposed LR,1.00,150,yes
+Binary,Lung Cancer,Proposed Stacking,1.00,150,yes
+Binary,Lung Cancer,MMODE(KNN k=10),1.00,3,no
+Binary,Lung Cancer,TRF-WGHC,0.99,3,no
+Binary,Lung Cancer,PGSS + LR,0.98,14.8,no
+Binary,Lung Cancer,PGSS + Deep Learning,0.99,14.8,no
+Binary,Lung Cancer,KL-IBPSO-ELM,0.95,11,no
+Binary,Lymphoma,Proposed LR,0.97,100,yes
+Binary,Lymphoma,Proposed Stacking,1.00,100,yes
+Binary,Lymphoma,AltWOA,1.00,22,no
+Binary,Lymphoma,IG-SGA,0.94,110,no
+Binary,Lymphoma,MMODE(KNN k=10),1.00,,no
+Binary,Lymphoma,TRF-WGHC,0.93,4,no
+Binary,Lymphoma,PGSS + LR,0.88,31.2,no
+Binary,Lymphoma,PGSS + Deep Learning,0.97,31.2,no
+Binary,Lymphoma,Multidimensional GNN,0.97,3,no
+Binary,Lymphoma,KL-IBPSO-ELM,0.92,8,no
+Binary,Lymphoma,CEFS(Voting),0.97,18,no
+Binary,Lymphoma,MGWO-R(KNN),0.97,13.5,no
+Binary,Lymphoma,MGWO-C(KNN),0.98,10.3,no
+Binary,Lymphoma,ILRC + SVM,0.95,,no
+Binary,Lymphoma,ILRC + NN,0.97,,no
+Binary,Myeloma,Proposed LR,1.00,100,yes
+Binary,Myeloma,Proposed Stacking,0.99,100,yes
+Binary,Myeloma,TRF-WGHC,0.88,7,no
+Binary,Myeloma,Multidimensional GNN,0.82,,no
+Binary,Ovarian Cancer,Proposed LR,1.00,50,yes
+Binary,Ovarian Cancer,Proposed Stacking,1.00,50,yes
+Binary,Ovarian Cancer,MUL-MGO,1.00,4.30,no
+Binary,Ovarian Cancer,MUL-RMGO,1.00,2.40,no
+Binary,Ovarian Cancer,MMODE(KNN k=10),1.00,2.46,no
+Binary,Ovarian Cancer,TRF-WGHC,0.98,3,no
+Binary,Ovarian Cancer,CEFS(Voting),0.98,42,no
+Binary,Prostate Cancer,Proposed LR,0.97,250,yes
+Binary,Prostate Cancer,Proposed Stacking,0.95,250,yes
+Binary,Prostate Cancer,IG-SGA,1.00,26,no
+Binary,Prostate Cancer,MMODE(KNN k=10),0.99,6.20,no
+Binary,Prostate Cancer,TRF-WGHC,0.95,3,no
+Binary,Prostate Cancer,Multidimensional GNN,0.93,5,no
+Binary,Prostate Cancer,MGWO-R(KNN),0.96,40.7,no
+Binary,Prostate Cancer,MGWO-C(KNN),0.94,50.8,no
+Binary,Prostate Cancer,ILRC + SVM,0.98,,no
+Binary,Prostate Cancer,ILRC + NN,0.97,,no
+Multiclass,Brain Cancer,Proposed LR,0.98,100,yes
+Multiclass,Brain Cancer,Proposed Stacking,0.97,100,yes
+Multiclass,Crohns Disease,Proposed LR,0.99,100,yes
+Multiclass,Crohns Disease,Proposed Stacking,0.99,100,yes
+Multiclass,Crohns Disease,MUL-MGO,0.94,18.10,no
+Multiclass,Crohns Disease,MUL-RMGO,0.96,5.50,no
+Multiclass,Crohns Disease,MMODE(KNN k=10),0.97,40.80,no
+Multiclass,Crohns Disease,PGSS + LR,0.85,77,no
+Multiclass,Crohns Disease,PGSS + Deep Learning,0.42,77,no
+Multiclass,Endometrial Cancer,Proposed LR,0.87,200,yes
+Multiclass,Endometrial Cancer,Proposed Stacking,0.84,200,yes
+Multiclass,Glioma,Proposed LR,0.88,50,yes
+Multiclass,Glioma,Proposed Stacking,0.88,50,yes
+Multiclass,Leukemia3,Proposed LR,0.99,50,yes
+Multiclass,Leukemia3,Proposed Stacking,0.98,50,yes
+Multiclass,Leukemia3,TRF-WGHC,0.97,5,no
+Multiclass,Leukemia4,Proposed LR,0.97,50,yes
+Multiclass,Leukemia4,Proposed Stacking,0.97,50,yes
+Multiclass,Leukemia4,TRF-WGHC,0.93,5,no
+Multiclass,Lung Cancer,Proposed LR,0.97,300,yes
+Multiclass,Lung Cancer,Proposed Stacking,0.98,300,yes
+Multiclass,Lung Cancer,WCLFJHEF(SVC),0.94,25,no
+Multiclass,Lung Cancer,WCLFJHEF(NB),0.91,25,no
+Multiclass,Lung Cancer,MGWO-R(KNN),0.95,91.4,no
+Multiclass,Lung Cancer,MGWO-C(KNN),0.96,94.5,no
+Multiclass,Lung Cancer,Iso-GA + SVM,0.94,18,no
+Multiclass,Lymphoma,Proposed LR,1.00,50,yes
+Multiclass,Lymphoma,Proposed Stacking,1.00,50,yes
+Multiclass,Lymphoma,Iso-GA + SVM,1.00,48.4,no
+Multiclass,MLL,Proposed LR,1.00,100,yes
+Multiclass,MLL,Proposed Stacking,0.99,100,yes
+Multiclass,MLL,TRF-WGHC,0.95,5,no
+Multiclass,MLL,Iso-GA + SVM,0.95,21,no
+Multiclass,SRBCT,Proposed LR,1.00,50,yes
+Multiclass,SRBCT,Proposed Stacking,1.00,50,yes
+Multiclass,SRBCT,AltWOA,1.00,25,no
+Multiclass,SRBCT,MUL-MGO,1.00,5.82,no
+Multiclass,SRBCT,MUL-RMGO,1.00,3.55,no
+Multiclass,SRBCT,TRF-WGHC,0.95,5,no
+Multiclass,SRBCT,MGWO-R(KNN),0.98,40.8,no
+Multiclass,SRBCT,MGWO-C(KNN),0.99,17.3,no
+Multiclass,SRBCT,WCLFJHEF(SVC),0.99,25,no
+Multiclass,SRBCT,WCLFJHEF(NB),0.96,25,no
+Multiclass,SRBCT,Iso-GA + SVM,0.99,17.6,no
