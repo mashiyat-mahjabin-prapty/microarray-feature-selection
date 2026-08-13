@@ -1,7 +1,7 @@
 # Interpretable Biomarker Discovery from Microarray Gene-Expression Data
 
-This repository contains the code and curated results for an undergraduate
-thesis on reproducible biomarker discovery and cancer classification using
+This repository contains the code and curated results for a pipeline 
+on reproducible biomarker discovery and cancer classification using
 high-dimensional microarray gene-expression data. The study evaluates 21
 binary and multiclass classification tasks with a common two-stage
 feature-selection workflow.
@@ -60,6 +60,7 @@ microarray_biomarker_selection/
 ├── Multiclass/                # Ten multiclass matrices
 ├── outputs/
 │   └── model_eval/            # Curated per-dataset results
+│   └── shap/                  # Curated per-dataset results
 ├── scripts/                   # Pipeline, interpretation, and figure scripts
 ├── requirements.txt
 └── README.md
@@ -194,31 +195,10 @@ The same inputs and package versions should be used for the closest
 reproduction. Hardware, operating-system, and library differences can still
 produce small floating-point differences even with fixed random seeds.
 
-## Data and results availability
-
-Before publishing the repository, confirm that every source dataset permits
-redistribution. If redistribution is not permitted, remove the corresponding
-matrix from the public repository and provide its accession number, source URL,
-and preprocessing instructions.
-
-The recommended public-release layout is:
-
-- GitHub: code, documentation, compact CSV/JSON results, and final PNG/PDF
-  figures;
-- a versioned data repository: processed matrices, full intermediate results,
-  SHAP outputs, and large TIFF files.
-
-Replace the placeholders below before publication:
-
-- **Processed datasets and complete results:** `[PLEASE INSERT ARCHIVE DOI]`
-- **Archived software release:** `[PLEASE INSERT SOFTWARE DOI]`
-
 ## Citation
 
 If you use this repository, cite the associated manuscript and archived
 software/data release:
-
-`[PLEASE INSERT THE FINAL MANUSCRIPT CITATION]`
 
 ## Contact
 
